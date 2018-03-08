@@ -7,7 +7,7 @@ First, install node dependencies with
 npm install
 ```
 
-Then, start the local preview server. This starts a [connnect](https://www.npmjs.com/package/connect) server with [livereload](https://www.npmjs.com/package/connect-livereload) on port 8888.
+Then, start the local preview server. This starts a [connect](https://www.npmjs.com/package/connect) server with [livereload](https://www.npmjs.com/package/connect-livereload) on port 8888.
 ```
 npm start
 ```
