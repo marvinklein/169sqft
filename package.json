@@ -1,0 +1,22 @@
+{
+	"name": "169sqft",
+	"private": true,
+	"version": "0.0.1",
+	"description": "We’re making an adorable 169 square-foot store for [an-erin](https://an-erin.com) in Boston’s Seaport district.",
+	"author": "mk@marvinklein.com",
+	"homepage": "169sqft.store",
+	"devDependencies": {
+		"gulp": "^4.0.0",
+		"gulp-awspublish": "^3.3.3",
+		"gulp-cloudfront-invalidate-aws-publish": "^1.0.0",
+		"gulp-connect": "^5.5.0",
+		"gulp-pug": "^3.3.0",
+		"gulp-sass": "^3.1.0",
+		"gulp-uglify": "^3.0.0",
+		"gulp-watch": "^5.0.0"
+	},
+	"scripts": {
+		"start": "gulp serve",
+		"s3": "gulp publish-s3"
+	}
+}

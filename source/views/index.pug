@@ -1,0 +1,53 @@
+doctype html
+html(lang='en')
+
+	head
+		block title
+			title 169 sqft
+
+		block meta
+			meta(charset='utf-8')
+			meta(name='viewport', content='width=device-width, initial-scale=1.0')
+
+		block favicon
+			meta(name="application-name", content="169 sq ft")
+			meta(name="msapplication-TileColor", content="#FAFF00")
+			meta(name="msapplication-TileImage", content="/mstile-144x144.png")
+			link(rel="apple-touch-icon-precomposed", sizes="144x144" href="/apple-touch-icon-144x144.png")
+			link(rel="apple-touch-icon-precomposed", sizes="152x152" href="/apple-touch-icon-152x152.png")
+			link(rel="icon", type="image/png" href="/favicon-32x32.png" sizes="32x32")
+			link(rel="icon", type="image/png" href="/favicon-16x16.png" sizes="16x16")
+
+		block stylesheets
+			link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik:900|Source+Serif+Pro:600")
+			link(rel="stylesheet", href='/css/main.css')
+
+		block analytics
+			//- Google Analytics
+			- var analyticsUA = 'UA-115299630-1'
+			script(async, src="https://www.googletagmanager.com/gtag/js?id=" + GA)
+			script function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag('js',new Date()),gtag('config','#{GA}');
+
+	body
+		block header
+			//- empty for now
+
+		block main
+			main
+				h1 169 sqft
+				.h1-subtitle We’re making an adorable 169 square-foot store for #[a(href='https://an-erin.com') an_erin] in Boston’s Seaport district.
+				article
+					.article-date March 5, 2018
+					h2 Where are the bathrooms?
+					p This summer, WS Development is opening 10 tiny-house-stores in the heart of Boston’s Seaport District. They’re creating an opportunity for small, local, female-owned businesses to thrive and we feel lucky to be a part of something like this in Boston. This city has so many talented humans that usually aren’t given the platform to showcase their talents.
+
+					p Today we had our first meeting with Doscher Hobler from WS to launch an_tiny_store aka #[strong 169sqft]! This is an_erin’s first store, so there’s a lot to learn! Mostly, we wanted to know things like: Can we paint the outside? How much of the surrounding area can we play with? And #[em where are the bathrooms?]
+					p We’re excited to get down and dirty to create an amazing atmosphere for the shop! We’ll create this unique one-of-a-kind shop using the Autodesk BUILD Space in Boston as well as their software for digitally fabricated spaces.
+
+					p Over the next few months, we’ll be documenting the entire process leading up to the opening. We’ll try to be as transparent as possible and share as much of our work as we can. We want this blog to be part narrative, and part recipe book for creating your own tiny space. Our posts will cover a broad range of topics, and hopefully range from pretty technical descriptions of what we’ve learned to totally #[abbr(title='just for fun!') jff] pieces about our feelings.
+
+		block footer
+			footer Code on #[a(href='https://github.com/marvinklein/169sqft') GitHub]
+
+		block scripts
+			//- empty for now
